@@ -61,9 +61,12 @@ highlight Error guifg=white guibg=red
 highlight Todo guifg=black guibg=#fcd38a gui=none
 
 if exists("g:desertEx_statusLineColor")
-	highlight User1 guifg=gray10 gui=bold guibg=#eeb422
+	highlight User1 guifg=gray10 gui=bold guibg=#15bdfe
 	highlight User2 guifg=gray85 gui=bold guibg=gray30
 	highlight User3 guifg=gray10 gui=bold guibg=gray50
 	highlight User4 guifg=gray10 gui=bold guibg=gray70
 	highlight User5 guifg=gray10 gui=bold guibg=gray90
 endif
+	"highlight User1 guifg=gray10 gui=bold guibg=#eeb422
+au InsertEnter * hi User1 guibg=#eeb422 ctermbg=214
+au InsertLeave * hi User1 guibg=#15bdfe ctermbg=39
