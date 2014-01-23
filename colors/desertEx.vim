@@ -13,8 +13,8 @@ endif
 let g:colors_name="desertEx"
 
 " Under GUI
-highlight Normal guifg=gray guibg=gray17 gui=none
-highlight SignColumn guifg=gray guibg=gray17 gui=none
+highlight Normal guifg=gray guibg=gray10 gui=none
+highlight SignColumn guifg=gray guibg=gray10 gui=none
 highlight Cursor guifg=black guibg=yellow gui=none
 highlight DiffAdd guifg=black guibg=wheat1
 highlight DiffChange guifg=black guibg=skyblue1
