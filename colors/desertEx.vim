@@ -16,6 +16,8 @@ let g:colors_name="desertEx"
 highlight Normal guifg=gray guibg=gray10 gui=none
 highlight SignColumn guifg=gray guibg=gray10 gui=none
 highlight Cursor guifg=black guibg=yellow gui=none
+highlight CursorLine guifg=gray guibg=gray16 gui=none
+highlight CursorColumn guifg=gray guibg=gray16 gui=none
 highlight DiffAdd guifg=black guibg=wheat1
 highlight DiffChange guifg=black guibg=skyblue1
 highlight DiffDelete guifg=black guibg=gray45 gui=none
